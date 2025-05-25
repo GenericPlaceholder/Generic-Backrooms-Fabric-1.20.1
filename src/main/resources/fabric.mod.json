@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "genericbackrooms",
+	"version": "${version}",
+	"name": "Generic Backrooms",
+	"description": "Just a Generic Backrooms mod.",
+	"authors": [
+		"Generic404_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/genericbackrooms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.generic404_.genericbackrooms.GenericBackrooms"
+		],
+		"cliet": [
+			"net.generic404_.genericbackrooms.GenericBackroomsClient"
+		],
+		"fabric-datagen": [
+			"net.generic404_.genericbackrooms.GenericBackroomsDataGenerator"
+		]
+	},
+	"mixins": [
+		"genericbackrooms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "generic-backrooms:block/fluorescent_on"
+  }
+}

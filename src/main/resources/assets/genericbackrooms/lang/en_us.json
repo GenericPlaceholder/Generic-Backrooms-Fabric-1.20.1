@@ -1,0 +1,10 @@
+{
+  "item.generic-backrooms.almondwater": "Almond Water",
+
+  "block.generic-backrooms.blockzero_wall": "Level Zero Wall",
+  "block.generic-backrooms.blockzero_floor": "Level Zero Carpet",
+  "block.generic-backrooms.blockzero_ceiling": "Level Zero Ceiling Tiles",
+  "block.generic-backrooms.fluorescent": "Fluorescent Light",
+
+  "itemgroup.genericbackrooms": "Generic Backrooms"
+}
