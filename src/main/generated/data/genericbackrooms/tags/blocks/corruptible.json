@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "genericbackrooms:blockzero_wall",
+    "genericbackrooms:blockzero_ceiling",
+    "genericbackrooms:blockzero_floor",
+    "genericbackrooms:fluorescent"
+  ]
+}
