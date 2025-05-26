@@ -3,6 +3,7 @@ package net.generic404_.genericbackrooms.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.generic404_.genericbackrooms.GenericBackrooms;
+import net.generic404_.genericbackrooms.block.lighting.Fluorescent;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.MapColor;
@@ -21,7 +22,7 @@ public class ModBlocks {
     public static final Block BLOCKZERO_CEILING = registerBlock("blockzero_ceiling",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.METAL).mapColor(MapColor.IRON_GRAY)));
     public static final Block FLUORESCENT = registerBlock("fluorescent",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.LANTERN).mapColor(MapColor.OFF_WHITE).luminance(15)));
+            new Fluorescent(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.LANTERN).mapColor(MapColor.OFF_WHITE).luminance(15)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
