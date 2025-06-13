@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final Block BLOCKZERO_CEILING = registerBlock("blockzero_ceiling",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.METAL).mapColor(MapColor.IRON_GRAY)));
     public static final Block FLUORESCENT = registerBlock("fluorescent",
-            new Fluorescent(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.LANTERN).mapColor(MapColor.OFF_WHITE).luminance(15)));
+            new Fluorescent(FabricBlockSettings.copyOf(Blocks.BEDROCK).luminance(Fluorescent::getLuminance).sounds(BlockSoundGroup.LANTERN).mapColor(MapColor.WHITE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
